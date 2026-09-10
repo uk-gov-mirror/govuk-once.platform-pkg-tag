@@ -1,6 +1,6 @@
 {
-  "name": "@gds-platform/cdk-tagging",
-  "version": "0.0.1",
+  "name": "@govuk-connect/tag",
+  "version": "1.0.0",
   "team": "platform",
   "license": "MIT",
   "packageManager": "pnpm@11.25.0",
