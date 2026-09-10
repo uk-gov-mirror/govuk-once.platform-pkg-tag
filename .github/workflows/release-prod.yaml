@@ -1,14 +1,12 @@
-name: Publish Tag Helpers (production)
+name: Publish Tag Helpers
 on:
   push:
-    tags:
-      - 'v*'
+    branches: [main]
     paths:
-      - "**.ts"
+      - "src/**.ts"
       - "**.json"
-      - "**.mts"
-      - "lib/**"
       - ".github/**.yaml"
+
 permissions:
   id-token: write
   contents: read

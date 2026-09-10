@@ -1,11 +1,13 @@
 name: Publish Tag Helpers (@next/development)
 on:
   push:
-    branches: [main]
+    branches:
+      - pre-release/*
     paths:
       - "src/**.ts"
       - "**.json"
       - ".github/**.yaml"
+
 permissions:
   id-token: write
   contents: read
